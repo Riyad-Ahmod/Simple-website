@@ -1,0 +1,116 @@
+.navBar {
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(114, 108, 108);
+}
+.navBar ul {
+  display: flex;
+  padding: 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+.navBar ul li {
+  list-style-type: none;
+}
+.navBar ul li a {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.4s;
+  text-transform: uppercase;
+}
+.navBar ul li a:hover {
+  color: white;
+  background: blue;
+}
+.main {
+  background: url(screen-6.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  width: 50%;
+  overflow: hidden;
+  text-align: center;
+}
+.heading h1 {
+  font-size: 60px;
+  color: white;
+  padding: 10px;
+  text-shadow: 2px -3px 1px black;
+}
+.heading p {
+  font-size: 18px;
+  color: white;
+  font-family: sans-serif;
+}
+.main1 {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background: cadetblue;
+}
+.left {
+  flex-grow: 1;
+}
+.left h1 {
+  text-align: center;
+}
+.right {
+  flex-grow: 1;
+}
+.right h1 {
+  text-align: center;
+}
+.main1 p {
+  text-align: justify;
+  font-family: sans-serif;
+}
+.AllBox {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background: rgba(201 201 201);
+  padding: 10px;
+}
+.singleBox {
+  padding: 10px;
+  background: rgb(163, 162, 162);
+}
+.singleBox h1 {
+  font-size: 30px;
+  color: red;
+  box-shadow: 1px 1px 3px 1px black;
+  text-align: center;
+  padding: 5px;
+}
+.singleBox p {
+  text-align: justify;
+  color: #131010;
+  font-family: arial;
+}
+
+.singleBox buttton {
+  padding: 10px 20px;
+  color: white;
+  background: #ff660d;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.singleBox buttton:hover {
+  color: blue;
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+footer {
+  background: #424549;
+  padding: 49px;
+  color: #aca9a9;
+}
